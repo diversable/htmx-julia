@@ -1,0 +1,12 @@
+name = "htmx"
+uuid = "2130ee52-ff0c-4646-b999-751f331590f7"
+authors = ["Diversable<dan.mantei@outlook.com>"]
+version = "0.1.0"
+
+[deps]
+AssetRegistry = "bf4720bc-e11a-5d0c-854e-bdca1663c893"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
+
+[compat]
+julia = "1.9"
