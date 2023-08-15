@@ -7,11 +7,12 @@ println(homepage)
 
 
 @app htmx_example = (
-    # Mux.prod_defaults,
-    Mux.defaults,
+    # Mux.prod_defaults,  	# production defaults for Mux
+    Mux.defaults,    # dev defaults for Mux
     page(respond(homepage)),
     page("/clicked", respond("<p>You clicked the button!</p>")),
-    Mux.notfound())
+    Mux.notfound()
+)
 
 wait(serve(htmx_example))
 
