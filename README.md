@@ -1,7 +1,7 @@
 # htmx
 
 
-## Installation
+## USAGE
 
 <p>
 htmx is a &nbsp;
